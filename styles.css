@@ -51,6 +51,38 @@ body {
   margin-bottom: 1.6rem;
 }
 
+/* Input */
+.input-container {
+  background-color: var(--color-dark-gray);
+  padding: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  width: 60%;
+}
+
+.copy-container {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.copy-text {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: var(--color-neon-green);
+  margin-right: 0.5rem;
+}
+
+.copy-icon:hover path {
+  fill: #fff;
+}
+/* End Input */
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   body {
