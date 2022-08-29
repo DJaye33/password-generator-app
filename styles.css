@@ -29,3 +29,21 @@ html {
   font-family: JetBrainsMono;
   src: url(./assets/fonts/JetBrainsMono-VariableFont_wght.ttf);
 }
+
+body {
+  background-color: black;
+  padding: 6.4rem 1.6rem 0;
+}
+
+.container {
+  max-width: 54rem;
+  margin: 0 auto;
+  border: 2px dotted var(--color-soft-red);
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  body {
+    padding: 13.3rem 11.4rem 0;
+  }
+}
