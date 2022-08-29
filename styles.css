@@ -31,6 +31,7 @@ html {
 }
 
 body {
+  font-family: JetBrainsMono;
   background-color: black;
   padding: 6.4rem 1.6rem 0;
 }
@@ -41,9 +42,23 @@ body {
   border: 2px dotted var(--color-soft-red);
 }
 
+.app-name {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  text-align: center;
+  color: var(--color-gray);
+  margin-bottom: 1.6rem;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   body {
     padding: 13.3rem 11.4rem 0;
+  }
+  .app-name {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 3.1rem;
   }
 }
