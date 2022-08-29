@@ -9,6 +9,17 @@
   box-sizing: inherit;
 }
 
+:root {
+  --color-dark-gray: #24232c;
+  --color-gray: #817d92;
+  --color-almost-white: #e6e5ea;
+  --color-very-dark-gray: #18171f;
+  --color-neon-green: #a4ffaf;
+  --color-soft-red: #f64a4a;
+  --color-soft-orange: #fb7c58;
+  --color-soft-yellow: #f8cd65;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
