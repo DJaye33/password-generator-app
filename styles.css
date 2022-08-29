@@ -42,7 +42,7 @@ body {
   border: 2px dotted var(--color-soft-red);
 }
 
-.app-name {
+.title {
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 2.1rem;
@@ -56,7 +56,7 @@ body {
   body {
     padding: 13.3rem 11.4rem 0;
   }
-  .app-name {
+  .title {
     font-size: 2.4rem;
     line-height: 3.2rem;
     margin-bottom: 3.1rem;
