@@ -51,21 +51,23 @@ body {
   margin-bottom: 1.6rem;
 }
 
-/* output */
-.output-container {
+/* Password */
+.password-container {
   background-color: var(--color-dark-gray);
   padding: 1.6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1.6rem;
 }
 
-.output {
+.password {
   width: 60%;
   background-color: var(--color-dark-gray);
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 3.2rem;
+  color: var(--color-almost-white);
   border: none;
 }
 
@@ -83,10 +85,14 @@ body {
   margin-right: 0.5rem;
 }
 
-.copy-icon:hover path {
-  fill: #fff;
+.copy-icon {
+  cursor: pointer;
 }
-/* End output */
+
+.copy-icon:hover path {
+  fill: var(--color-almost-white);
+}
+/* End Password */
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
