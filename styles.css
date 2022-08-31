@@ -111,6 +111,13 @@ body {
   font-size: 2.4rem;
   line-height: 3.2rem;
 }
+
+/* Slider */
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+}
+/* End Slider */
 /* End Input */
 
 /* Media Queries */
