@@ -54,7 +54,7 @@ body {
 }
 
 /* Password */
-.password-container {
+.passwordContainer {
   background-color: var(--color-dark-gray);
   padding: 1.6rem;
   display: flex;
@@ -72,52 +72,80 @@ body {
   border: none;
 }
 
-.copy-container {
+.copyContainer {
   width: 40%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.copy-text {
+.copyText {
   text-transform: uppercase;
   color: var(--color-neon-green);
   margin-right: 0.5rem;
 }
 
-.copy-icon {
+.copyIcon {
   cursor: pointer;
 }
 
-.copy-icon:hover path {
+.copyIcon:hover path {
   fill: var(--color-almost-white);
 }
 /* End Password */
 
 /* Input */
-.input-container {
+.inputContainer {
   background-color: var(--color-dark-gray);
   padding: 1.6rem;
 }
 
-.character-length {
+.characterLength {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.length-number {
+.lengthNumber {
   color: var(--color-neon-green);
   font-size: 2.4rem;
   line-height: 3.2rem;
 }
 
 /* Slider */
+.sliderContainer {
+  width: 100%;
+}
+
 .slider {
   -webkit-appearance: none;
   width: 100%;
   height: 0.8rem;
-  background-color: var(--color-very-dark-gray);
+  background: linear-gradient(
+    90deg,
+    var(--color-neon-green) 60%,
+    var(--color-very-dark-gray) 60%
+  );
+  outline: none;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 2.8rem;
+  height: 2.8rem;
+  background-color: var(--color-almost-white);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 2.8rem;
+  height: 2.8rem;
+  background-color: var(--color-almost-white);
+  border-radius: 50%;
+  cursor: pointer;
 }
 /* End Slider */
 /* End Input */
@@ -133,12 +161,12 @@ body {
     margin-bottom: 3.1rem;
   }
 
-  .length-text {
+  .lengthText {
     font-size: 1.8rem;
     line-height: 2.4rem;
   }
 
-  .length-number {
+  .lengthNumber {
     font-size: 3.2rem;
     line-height: 4.2rem;
   }
